@@ -1,0 +1,26 @@
+{
+  "name": "youtube_rest_api",
+  "version": "1.0.0",
+  "description": "Coba bikin youtube rest api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm app.js"
+  },
+  "keywords": [
+    "youtube",
+    "yt",
+    "download",
+    "api",
+    "rest"
+  ],
+  "author": "Agus Ibrahim",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "express-exception-handler": "^1.3.5",
+    "pino": "^7.11.0",
+    "youtubei.js": "^1.4.3"
+  }
+}
