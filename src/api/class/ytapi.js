@@ -21,7 +21,7 @@ class YTAPI {
     async stream(ids) {
         return this.yt.getStreamingData(ids, {
             format: 'mp4', // defaults to mp4
-            quality: '720p', // falls back to 360p if a specific quality isn't available
+            quality: '240p', // falls back to 360p if a specific quality isn't available
             type: 'video'
         })
     }
